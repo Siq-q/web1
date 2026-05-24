@@ -1,0 +1,17 @@
+var usa2 =
+{
+"type": "FeatureCollection",
+"name": "usaII",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Location": "Francis E. Warren AFB", "Unit": "90th Missile Wing", "Subunit": "319th Missile Squadron", "lat": 41.133057, "long": -104.866943, "weapon": "LGM-30G", "count": 50, "type": "silo", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -104.866943, 41.133057 ] } },
+{ "type": "Feature", "properties": { "Location": "Francis E. Warren AFB", "Unit": "90th Missile Wing", "Subunit": "320th Missile Squadron", "lat": 41.133055, "long": -104.866944, "weapon": "LGM-30G", "count": 50, "type": "silo", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -104.866944, 41.133055 ] } },
+{ "type": "Feature", "properties": { "Location": "Francis E. Warren AFB", "Unit": "90th Missile Wing", "Subunit": "321st Missile Squadron", "lat": 41.133056, "long": -104.866942, "weapon": "LGM-30G", "count": 50, "type": "silo", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -104.866942, 41.133056 ] } },
+{ "type": "Feature", "properties": { "Location": "Minot AFB", "Unit": "91st Missile Wing", "Subunit": "740th Missile Squadron", "lat": 48.415831, "long": -101.358056, "weapon": "LGM-30G", "count": 50, "type": "silo", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -101.358056, 48.415831 ] } },
+{ "type": "Feature", "properties": { "Location": "Minot AFB", "Unit": "91st Missile Wing", "Subunit": "741st Missile Squadron", "lat": 48.415832, "long": -101.358055, "weapon": "LGM-30G", "count": 50, "type": "silo", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -101.358055, 48.415832 ] } },
+{ "type": "Feature", "properties": { "Location": "Minot AFB", "Unit": "91st Missile Wing", "Subunit": "742nd Missile Squadron", "lat": 48.415833, "long": -101.358054, "weapon": "LGM-30G", "count": 50, "type": "silo", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -101.358054, 48.415833 ] } },
+{ "type": "Feature", "properties": { "Location": "Malmstrom AFB", "Unit": "341st Missile Wing", "Subunit": "10th Missile Squadron", "lat": 47.504722, "long": -111.187222, "weapon": "LGM-30G", "count": 50, "type": "silo", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -111.187222, 47.504722 ] } },
+{ "type": "Feature", "properties": { "Location": "Malmstrom AFB", "Unit": "341st Missile Wing", "Subunit": "12th Missile Squadron", "lat": 47.504721, "long": -111.187223, "weapon": "LGM-30G", "count": 50, "type": "silo", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -111.187223, 47.504721 ] } },
+{ "type": "Feature", "properties": { "Location": "Malmstrom AFB", "Unit": "341st Missile Wing", "Subunit": "490th Missile Squadron", "lat": 47.504723, "long": -111.187221, "weapon": "LGM-30G", "count": 50, "type": "silo", "notes": null }, "geometry": { "type": "Point", "coordinates": [ -111.187221, 47.504723 ] } }
+]
+}
