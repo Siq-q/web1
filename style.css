@@ -1,0 +1,261 @@
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "schrift", Arial, sans-serif;
+  font-size: 1.15em;
+  overflow: hidden;
+}
+
+/*schriftgrößen*/
+
+h1 {
+  margin-bottom: 40px;
+  margin-left: 20px;
+  font-size: 2em;
+  font-family: Arial, sans-serif;
+  color: greenyellow;
+  font-weight: bold;
+  padding: 0;
+}
+
+h2 {
+  margin-left: 20px;
+  font-size: 1em;
+  font-family: Arial, sans-serif;
+  color: #666;
+  background-color: black;
+}
+
+p {
+  margin-left: 20px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  color: gainsboro;
+  line-height: 1.5;
+}
+
+em {
+  font-style: normal;
+  font-weight: 700;
+}
+
+mark {
+  font-size: 1.25em;
+}
+
+button {
+  width: 12em;
+  height: 4em;
+  font-weight: 1000;
+}
+
+a:link,
+a:visited,
+a:active {
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/*Karte*/
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+}
+
+/*Box mit titel*/
+
+.title-box {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: #424242;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  z-index: 1000;
+}
+
+.title-box h1 {
+  margin: 0 0 10px 0;
+  margin-left: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: yellowgreen;
+}
+
+.title-box p {
+  margin-left: 0;
+  color: gainsboro;
+}
+
+.title-box p:last-child {
+  margin-bottom: 0;
+}
+
+/*Flaggenknöpfe*/
+
+.flag-control {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background: #424242;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.flag-control-label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 12px;
+  color: gainsboro;
+  font-weight: bold;
+}
+
+.flag-control img {
+  cursor: pointer;
+  width: 50px;
+  margin: 2px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.flag-control img:hover {
+  opacity: 1;
+}
+
+/*baselayer*/
+
+.baselayer-control {
+  position: fixed;
+  bottom: 60px;
+  right: 10px;
+  background: #424242;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.baselayer-control label {
+  display: block;
+  margin: 5px 0;
+  font-size: 13px;
+  cursor: pointer;
+  color: gainsboro;
+}
+
+.baselayer-control input {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+/*footer unten links*/
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background: #424242;
+  color: greenyellow;
+  padding: 6px 10px;
+  border-radius: 6px;
+  z-index: 999;
+  font-size: 12px;
+}
+
+footer a {
+  color: gainsboro;
+  margin: 0 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/*Information über studentische arbeit*/
+
+.student-work-info {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  /*transform: translateX(-50%);*/
+  background: rgba(0, 0, 0, 0.7);
+  color: greenyellow;
+  padding: 6px 12px;
+  border-radius: 6px;
+  z-index: 999;
+  font-size: 11px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/*Cookie-Dialog*/
+
+dialog {
+  max-width: 500px;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: black;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+
+
+dialog button {
+  width: auto;
+  height: auto;
+  padding: 8px 16px;
+  margin-left: 180px
+}
+
+/*Laeflet Attribution*/
+
+.leaflet-control-container {
+  position: relative;
+  z-index: 999;
+}
+
+.leaflet-control-attribution {
+  position: fixed !important;
+  bottom: 10px !important;
+  right: 10px !important;
+  z-index: 998;
+  background: rgba(0, 0, 0, 0.7) !important;
+  color: gainsboro !important;
+  font-size: 11px !important;
+  padding: 4px 6px !important;
+  border-radius: 4px !important;
+}
+
+.leaflet-control-attribution a {
+  color: gainsboro !important;
+}
+
+
+
+
+
+
